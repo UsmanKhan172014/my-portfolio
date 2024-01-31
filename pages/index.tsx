@@ -66,10 +66,10 @@ export default function Home() {
     if (!IsBlackListEmpty) {
       if (userData) {
         // check if the user country is in the blackList
-        if (process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES.includes(userData.country)) {
-          // set isBlackListed to true
-          setIsBlackListed(true);
-        }
+        // if (process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES.includes(userData.country)) {
+        //   // set isBlackListed to true
+        //   setIsBlackListed(true);
+        // }
       }
     }
   }, [IsBlackListEmpty, userData]);
@@ -107,7 +107,7 @@ export default function Home() {
 
   console.log("website is rendering...");
   const meta = {
-    title: "Abdellatif Anaflous - Software Engineer",
+    title: "Muhammad Usman Khan - Software Engineer",
     description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
     image: "/titofCercle.png",
     type: "website",

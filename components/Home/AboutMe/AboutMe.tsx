@@ -29,9 +29,9 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Abdellatif, and I am a passionate software engineer and problem solver, dedicated to
-                creating impactful codes that thrive on the internet. My journey in computer science began in 2009 when
-                I delved into the world of Ethical Hacking using BackTrack OS. Little did I know that programming skills
+                Hello! My name is Usman, and I am a passionate software engineer and problem solver, dedicated to
+                creating impactful codes that thrive on the internet. My journey in computer science began in 2017 when
+                I delved into the world of Ethical Hacking using Kali Linux OS. Little did I know that programming skills
                 would become essential in pursuing this interest, marking the start of my programming journey.
               </span>
             </div>
@@ -41,8 +41,8 @@ export default function AboutMe(props) {
                 refine my expertise in desktop and web development. In the realm of{" "}
                 <span className="text-AAsecondary">web3</span>, I am dedicated to pushing boundaries and driving
                 advancements. With experience working alongside esteemed organizations like{" "}
-                <span className="text-AAsecondary">ENS Vision</span>, where I played a key role in releasing v2 of{" "}
-                <span className="text-AAsecondary">ENS Vision Marketplace</span> , my passion for web3 and continuous
+                <span className="text-AAsecondary">Geniteam Solutions</span>, where I played a key role in development of{" "}
+                <span className="text-AAsecondary">Prankster NFTs</span> , my passion for web3 and continuous
                 learning drives me to make a positive impact and advance technology.
               </span>
             </div>
