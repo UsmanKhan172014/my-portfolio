@@ -27,7 +27,7 @@ export default function Maintenance() {
               className="text-white underline"
               href="mailto:usmankhan7419@gmail.com?subject=Hello%20World&body=Body%20of%20the%20email"
             >
-              abdellatif@anaflous.com
+              usmankhan7419@gmail.com
             </a>
           </p>
         </div>
