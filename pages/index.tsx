@@ -120,15 +120,15 @@ export default function Home() {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://anaflous.com`} />
-        <link rel="canonical" href={`https://anaflous.com`} />
+        <meta property="og:url" content={`https://uktech.dev`} />
+        <link rel="canonical" href={`https://uktech.dev`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Manu Arora" />
+        <meta property="og:site_name" content="Usman Khan" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@titofabdo" />
+        <meta name="twitter:site" content="@usmankhan1159" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
@@ -142,8 +142,8 @@ export default function Home() {
           <MyName finishedLoading={context.sharedState.finishedLoading} />
           <SocialMediaArround finishedLoading={context.sharedState.finishedLoading} />
           {context.sharedState.finishedLoading ? <AboutMe ref={aboutRef} /> : <></>}
-          {/* {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>} */}
-          {/* {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>} */}
+           {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>}
+           {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
           {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
           {context.sharedState.finishedLoading ? (
             <Footer githubUrl={"#"} hideSocialsInDesktop={true} />
